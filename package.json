@@ -1,6 +1,7 @@
 {
   "name": "camembertaulaitcrew.biz",
   "version": "0.1.0",
+  "homepage": "http://www.camembertaulaitcrew.biz/",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.4.1"
