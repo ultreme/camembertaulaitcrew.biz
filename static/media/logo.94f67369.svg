@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="800" height="800" viewBox="0, 0, 800, 800">
+  <defs>
+    <filter id="Shadow_1">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
+      <feOffset dx="0" dy="6" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+  </defs>
+  <g id="Layer_1">
+    <g>
+      <path d="M212.24,188.168 L579,188.5 L678.709,289.447 L396.009,613.245 L113.31,289.153 L212.24,188.168 z" filter="url(#Shadow_1)" fill="rgba(0,0,0,0.65)"/>
+      <path d="M212.24,188.168 L579,188.5 L678.709,289.447 L396.009,613.245 L113.31,289.153 z" fill="#000000"/>
+    </g>
+    <path d="M217.074,198.702 L573.537,199.333 L663.441,290.184 L396.009,596.245 L128.431,289.237 z" fill="#FF0000"/>
+    <path d="M228.19,218.478 L562.548,218.112 L632.053,288.349 L397.333,554.333 L158.667,291 z" fill="#000000"/>
+    <path d="M231.603,230.54 L558.848,230.088 L615.878,288.023 L397.715,539.228 L173.215,290.286 z" fill="#FFFF00"/>
+    <text transform="matrix(1, 0, 0, 1, 395.36, 306.588)">
+      <tspan x="-165.6" y="44.5" font-family="HelveticaNeue-Bold" font-size="120" fill="#000000">CALC</tspan>
+    </text>
+  </g>
+</svg>
